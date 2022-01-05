@@ -1,4 +1,4 @@
-'''
+
 
 # OOPS practice 
 
@@ -93,7 +93,7 @@ intercity = Train("Intercity Express(11022)" , 250 , 10)
 intercity.getStatus()
 intercity.fareInfo()
 
-'''
+
 
 # use the above program and add a ticket booking option
 
