@@ -2,7 +2,7 @@
     
 while True: 
 
-    print("Press 1 for addition , Press 2 for Subtraction , Press 3 For Multiplication and Press 4 for Division")
+    print("Press 1 for addition , Press 2 for Subtraction , Press 3 For Multiplication , Press 4 for Division and press 5 to get Percentage")
     print("To Quit press q")
     
     operation = input("Enter the number of operation that you want to perform : ")
@@ -33,6 +33,14 @@ while True:
             num2 = float(input("Enter number 2 : "))
             div=num1/num2
             print (f"Value of {num1} divided by {num2} is {div}\n ")
+            
+    elif operation == "5":
+            num1 = float(input("Enter value : "))
+            num2 = float(input("Enter Total value : "))
+            per = (num1/num2) * 100
+            print (f"Percentage of {num1} from {num2} is {per}% \n ")
+            
+
 
     else :
         print(f"Invalid Operation!! Please Enter a valid operation\n " )
